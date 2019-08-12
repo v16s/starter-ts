@@ -1,7 +1,8 @@
 {
-  "name": "ts-starter",
-  "version": "0.1.0",
-  "private": true,
+  "name": "starter-ts",
+  "version": "0.1.1",
+  "private": false,
+  "author": "v16s",
   "dependencies": {
     "@types/express": "^4.17.0",
     "@types/jest": "24.0.15",
@@ -28,7 +29,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "ts-node server"
+    "server": "ts-node -P tsconfig.server.json --files server"
   },
   "eslintConfig": {
     "extends": "react-app"

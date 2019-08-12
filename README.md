@@ -1,22 +1,20 @@
+## Overview
 
-## Available Scripts
+A monorepo starter for a NodeJS + React example written in Typescript. Uses Apollo graphql on express with minimal configuration and create-react-app for the React app (can be ejected at your convenience)
+
+## Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `yarn start`
 
-Runs the app in the development mode.<br>
+Runs the React app in the development mode. (source files are in {repo_dir}**/src**)<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
+### `yarn build`
 
 Builds the app for production to the `build` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -24,7 +22,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
-### `npm run server`
+### `yarn server`
 
-Runs the server on nodejs written in ts which has apollo and express
+Runs the server (source files are in {repo_dir}**/server**)
 
